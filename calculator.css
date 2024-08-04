@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.container{
+    height: 32rem;
+    width: 21rem;
+    background-color:#1c1c1c;
+    border-radius: 5px;
+}
+
+.btns button {
+    height: 4.2rem;
+    width: 4.2rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    color: #ffffff;
+    border: none;
+    margin: 0.2rem;
+    cursor: pointer;
+}
+.btns{
+    margin: 1rem 0rem .4rem 1rem;
+}
+
+.btns .num{
+    background-color: #505050;
+}
+
+.btns .sign{
+    background-color: #ff9500;
+}
+
+.btns .sign1{
+    background-color: #d4d4d2;
+    color: #000000;
+}
+ 
+#input{
+    width: 19rem;
+    height: 6rem;
+    margin-top: 0.8rem;
+    margin-left: 1rem;
+    font-size: 2rem;
+    border-radius: 5px;
+    border: none;
+}
